@@ -1,0 +1,76 @@
+.login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.login .login-modal {
+  width: 60vw;
+  height: 60vh;
+  margin: 3rem auto;
+  background-color: #fcfcfc;
+  border: 0.1rem solid lightgray;
+  border-radius: 0.5rem;
+}
+
+.login .title {
+  text-align: center;
+  margin: 1.5rem;
+}
+
+.login .inputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.login input {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  width: 25vw;
+  outline: none;
+}
+
+.login button {
+  background-color: #00d200;
+  border: none;
+  padding: 0.5rem 1rem;
+  width: 20vw;
+  display: block;
+  margin: 1rem auto;
+  cursor: pointer;
+  color: white;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.login button:hover {
+  background-color: #00ba00;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-box-shadow: 0.05rem 0.05rem 0.2rem #0e8d00;
+          box-shadow: 0.05rem 0.05rem 0.2rem #0e8d00;
+}
+
+@media screen and (max-width: 720px) {
+  .login .login-modal input {
+    width: 50vw;
+  }
+}
+/*# sourceMappingURL=style.css.map */

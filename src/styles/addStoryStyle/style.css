@@ -1,0 +1,86 @@
+.add-story .heading {
+  font-size: 2rem;
+  margin: 2rem;
+  text-align: center;
+}
+
+.add-story .inputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.add-story .title {
+  width: 30%;
+  padding: 0.5rem;
+}
+
+.add-story .author {
+  width: 30%;
+  padding: 0.5rem;
+  margin: 1.5rem 0rem;
+}
+
+.add-story .story {
+  width: 90%;
+  height: 30vh;
+  padding: 0.5rem;
+}
+
+.add-story .submit-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.add-story .submit-button button {
+  padding: 0.5rem 1rem;
+  width: 20%;
+  margin: 1rem 0rem;
+  text-align: center;
+  border: none;
+  background-color: #00d200;
+  color: white;
+  font-size: 1.1rem;
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.add-story .submit-button button:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  background-color: #00ba00;
+}
+
+@media screen and (max-width: 800px) {
+  .add-story .title {
+    width: 60%;
+  }
+  .add-story .submit-button button {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .add-story .submit-button button {
+    font-size: 0.6rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
