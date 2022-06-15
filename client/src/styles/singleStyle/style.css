@@ -1,0 +1,46 @@
+.single-story {
+  margin-bottom: 8rem;
+}
+
+.single-story .title {
+  font-size: 4rem;
+  text-align: center;
+  margin: 1.5rem;
+  color: coral;
+}
+
+.single-story .author {
+  font-size: 1.8rem;
+}
+
+.single-story .details {
+  padding: 0rem 4rem;
+}
+
+.single-story .created {
+  margin: 0.5rem 0rem;
+}
+
+.single-story .info {
+  font-size: 1.3rem;
+  margin: 2.5rem 0rem;
+  letter-spacing: 0.05rem;
+  word-spacing: 0.1rem;
+  line-height: 2rem;
+  color: gray;
+}
+
+.single-story .fa-pen-to-square {
+  color: blue;
+  font-size: 2rem;
+  margin: 1rem 0rem;
+  cursor: pointer;
+}
+
+.single-story .fa-trash-can {
+  color: crimson;
+  font-size: 2rem;
+  margin: 1rem 2rem;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
